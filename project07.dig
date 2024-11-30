@@ -4337,20 +4337,6 @@ end while
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2360" y="800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
           <string>NetName</string>
           <string>EN_IF_DR</string>
         </entry>
@@ -4430,6 +4416,16 @@ end while
         </entry>
       </elementAttributes>
       <pos x="1340" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="800"/>
     </visualElement>
   </visualElements>
   <wires>
