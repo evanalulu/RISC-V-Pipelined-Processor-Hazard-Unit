@@ -3670,62 +3670,6 @@ Write Back</string>
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1440" y="800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2360" y="800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>EN</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2980" y="800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
         <entry>
@@ -3876,19 +3820,19 @@ end while
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
+          <string>Selector Bits</string>
+          <int>2</int>
         </entry>
         <entry>
           <string>Bits</string>
           <int>64</int>
         </entry>
         <entry>
-          <string>Selector Bits</string>
-          <int>2</int>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="200"/>
+      <pos x="1860" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3916,7 +3860,7 @@ end while
           <string>MRO_4</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="220"/>
+      <pos x="1840" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3944,7 +3888,7 @@ end while
           <string>ALUR_3</string>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="240"/>
+      <pos x="1840" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -3958,12 +3902,12 @@ end while
           <int>64</int>
         </entry>
       </elementAttributes>
-      <pos x="1820" y="260"/>
+      <pos x="1840" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Hazard-Unit.dig</elementName>
       <elementAttributes/>
-      <pos x="1800" y="-180"/>
+      <pos x="1800" y="-240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3977,7 +3921,7 @@ end while
           <string>RR0_2</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-160"/>
+      <pos x="1760" y="-220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3991,7 +3935,7 @@ end while
           <string>RR1_2</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-140"/>
+      <pos x="1760" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4005,7 +3949,7 @@ end while
           <string>WR_4</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-120"/>
+      <pos x="1760" y="-180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4019,7 +3963,7 @@ end while
           <string>RFW_4</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-100"/>
+      <pos x="1760" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4033,7 +3977,7 @@ end while
           <string>WR_3</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-80"/>
+      <pos x="1760" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4047,7 +3991,7 @@ end while
           <string>RFW_3</string>
         </entry>
       </elementAttributes>
-      <pos x="1760" y="-60"/>
+      <pos x="1760" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4057,7 +4001,7 @@ end while
           <string>FRD0</string>
         </entry>
       </elementAttributes>
-      <pos x="1940" y="-140"/>
+      <pos x="2000" y="-200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4071,7 +4015,7 @@ end while
           <string>FRD0</string>
         </entry>
       </elementAttributes>
-      <pos x="1840" y="180"/>
+      <pos x="1860" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4081,7 +4025,7 @@ end while
           <string>FRD1</string>
         </entry>
       </elementAttributes>
-      <pos x="1940" y="-80"/>
+      <pos x="2000" y="-160"/>
     </visualElement>
     <visualElement>
       <elementName>Multiplexer</elementName>
@@ -4099,7 +4043,7 @@ end while
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="360"/>
+      <pos x="1860" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4113,7 +4057,7 @@ end while
           <string>MRO_4</string>
         </entry>
       </elementAttributes>
-      <pos x="1860" y="380"/>
+      <pos x="1840" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4127,7 +4071,7 @@ end while
           <string>ALUR_3</string>
         </entry>
       </elementAttributes>
-      <pos x="1860" y="400"/>
+      <pos x="1840" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -4141,7 +4085,7 @@ end while
           <int>64</int>
         </entry>
       </elementAttributes>
-      <pos x="1860" y="420"/>
+      <pos x="1840" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -4155,7 +4099,161 @@ end while
           <string>FRD1</string>
         </entry>
       </elementAttributes>
-      <pos x="1880" y="340"/>
+      <pos x="1860" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>06-jal-fls-test</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>EN CLR CLK PROG A0 DONE
+1  1   0   x    x  x
+1  0   0   x    x  x
+while (!(DONE))
+1  0   C   6    x  x
+end while
+1  0   0   0    7  1</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="-180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>EN_IF_DR_EX</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2000" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>CLR_EX_MEM</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2000" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EN_IF_DR_EX</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EN_IF_DR_EX</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>CLR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>PCsl_2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>MLD_3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2360" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>EN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2980" y="800"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -4228,8 +4326,8 @@ end while
       <p2 x="3060" y="260"/>
     </wire>
     <wire>
-      <p1 x="1820" y="260"/>
-      <p2 x="1840" y="260"/>
+      <p1 x="1840" y="260"/>
+      <p2 x="1860" y="260"/>
     </wire>
     <wire>
       <p1 x="240" y="260"/>
@@ -4296,10 +4394,6 @@ end while
       <p2 x="1800" y="-140"/>
     </wire>
     <wire>
-      <p1 x="1900" y="-140"/>
-      <p2 x="1940" y="-140"/>
-    </wire>
-    <wire>
       <p1 x="900" y="140"/>
       <p2 x="920" y="140"/>
     </wire>
@@ -4352,7 +4446,7 @@ end while
       <p2 x="2660" y="400"/>
     </wire>
     <wire>
-      <p1 x="1920" y="400"/>
+      <p1 x="1900" y="400"/>
       <p2 x="1940" y="400"/>
     </wire>
     <wire>
@@ -4360,8 +4454,8 @@ end while
       <p2 x="1760" y="400"/>
     </wire>
     <wire>
-      <p1 x="1860" y="400"/>
-      <p2 x="1880" y="400"/>
+      <p1 x="1840" y="400"/>
+      <p2 x="1860" y="400"/>
     </wire>
     <wire>
       <p1 x="1940" y="400"/>
@@ -4476,7 +4570,7 @@ end while
       <p2 x="2440" y="280"/>
     </wire>
     <wire>
-      <p1 x="1900" y="280"/>
+      <p1 x="1960" y="280"/>
       <p2 x="1980" y="280"/>
     </wire>
     <wire>
@@ -4524,6 +4618,10 @@ end while
       <p2 x="1800" y="-160"/>
     </wire>
     <wire>
+      <p1 x="1940" y="-160"/>
+      <p2 x="2000" y="-160"/>
+    </wire>
+    <wire>
       <p1 x="1820" y="800"/>
       <p2 x="1860" y="800"/>
     </wire>
@@ -4568,8 +4666,8 @@ end while
       <p2 x="1620" y="420"/>
     </wire>
     <wire>
-      <p1 x="1860" y="420"/>
-      <p2 x="1880" y="420"/>
+      <p1 x="1840" y="420"/>
+      <p2 x="1860" y="420"/>
     </wire>
     <wire>
       <p1 x="3320" y="1060"/>
@@ -4594,6 +4692,10 @@ end while
     <wire>
       <p1 x="900" y="-40"/>
       <p2 x="920" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="-40"/>
+      <p2 x="1800" y="-40"/>
     </wire>
     <wire>
       <p1 x="2420" y="680"/>
@@ -4677,7 +4779,7 @@ end while
     </wire>
     <wire>
       <p1 x="1760" y="300"/>
-      <p2 x="1900" y="300"/>
+      <p2 x="1960" y="300"/>
     </wire>
     <wire>
       <p1 x="640" y="300"/>
@@ -4732,6 +4834,10 @@ end while
       <p2 x="2780" y="560"/>
     </wire>
     <wire>
+      <p1 x="1760" y="-180"/>
+      <p2 x="1800" y="-180"/>
+    </wire>
+    <wire>
       <p1 x="1820" y="820"/>
       <p2 x="1920" y="820"/>
     </wire>
@@ -4744,8 +4850,8 @@ end while
       <p2 x="1180" y="180"/>
     </wire>
     <wire>
-      <p1 x="1840" y="180"/>
-      <p2 x="1860" y="180"/>
+      <p1 x="1860" y="180"/>
+      <p2 x="1880" y="180"/>
     </wire>
     <wire>
       <p1 x="2420" y="440"/>
@@ -4904,6 +5010,14 @@ end while
       <p2 x="3060" y="580"/>
     </wire>
     <wire>
+      <p1 x="1760" y="-200"/>
+      <p2 x="1800" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="1940" y="-200"/>
+      <p2 x="2000" y="-200"/>
+    </wire>
+    <wire>
       <p1 x="500" y="1480"/>
       <p2 x="520" y="1480"/>
     </wire>
@@ -4941,7 +5055,7 @@ end while
     </wire>
     <wire>
       <p1 x="1720" y="200"/>
-      <p2 x="1840" y="200"/>
+      <p2 x="1860" y="200"/>
     </wire>
     <wire>
       <p1 x="1860" y="840"/>
@@ -4996,12 +5110,12 @@ end while
       <p2 x="2660" y="460"/>
     </wire>
     <wire>
-      <p1 x="1760" y="-80"/>
-      <p2 x="1800" y="-80"/>
+      <p1 x="1940" y="-80"/>
+      <p2 x="2000" y="-80"/>
     </wire>
     <wire>
-      <p1 x="1900" y="-80"/>
-      <p2 x="1940" y="-80"/>
+      <p1 x="1760" y="-80"/>
+      <p2 x="1800" y="-80"/>
     </wire>
     <wire>
       <p1 x="2420" y="720"/>
@@ -5080,8 +5194,8 @@ end while
       <p2 x="1520" y="340"/>
     </wire>
     <wire>
-      <p1 x="1880" y="340"/>
-      <p2 x="1900" y="340"/>
+      <p1 x="1860" y="340"/>
+      <p2 x="1880" y="340"/>
     </wire>
     <wire>
       <p1 x="2560" y="340"/>
@@ -5120,6 +5234,10 @@ end while
       <p2 x="1060" y="600"/>
     </wire>
     <wire>
+      <p1 x="1760" y="-220"/>
+      <p2 x="1800" y="-220"/>
+    </wire>
+    <wire>
       <p1 x="2100" y="220"/>
       <p2 x="2120" y="220"/>
     </wire>
@@ -5136,8 +5254,8 @@ end while
       <p2 x="1180" y="220"/>
     </wire>
     <wire>
-      <p1 x="1820" y="220"/>
-      <p2 x="1840" y="220"/>
+      <p1 x="1840" y="220"/>
+      <p2 x="1860" y="220"/>
     </wire>
     <wire>
       <p1 x="740" y="860"/>
@@ -5248,8 +5366,8 @@ end while
       <p2 x="2300" y="360"/>
     </wire>
     <wire>
-      <p1 x="1780" y="360"/>
-      <p2 x="1880" y="360"/>
+      <p1 x="1740" y="360"/>
+      <p2 x="1860" y="360"/>
     </wire>
     <wire>
       <p1 x="2900" y="620"/>
@@ -5320,12 +5438,12 @@ end while
       <p2 x="160" y="240"/>
     </wire>
     <wire>
-      <p1 x="1880" y="240"/>
+      <p1 x="1900" y="240"/>
       <p2 x="1980" y="240"/>
     </wire>
     <wire>
-      <p1 x="1820" y="240"/>
-      <p2 x="1840" y="240"/>
+      <p1 x="1840" y="240"/>
+      <p2 x="1860" y="240"/>
     </wire>
     <wire>
       <p1 x="1620" y="880"/>
@@ -5374,6 +5492,10 @@ end while
     <wire>
       <p1 x="1760" y="-120"/>
       <p2 x="1800" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="1940" y="-120"/>
+      <p2 x="2000" y="-120"/>
     </wire>
     <wire>
       <p1 x="1640" y="760"/>
@@ -5432,12 +5554,8 @@ end while
       <p2 x="1380" y="380"/>
     </wire>
     <wire>
-      <p1 x="1860" y="380"/>
-      <p2 x="1880" y="380"/>
-    </wire>
-    <wire>
-      <p1 x="1740" y="380"/>
-      <p2 x="1780" y="380"/>
+      <p1 x="1840" y="380"/>
+      <p2 x="1860" y="380"/>
     </wire>
     <wire>
       <p1 x="3280" y="1020"/>
@@ -5624,6 +5742,10 @@ end while
       <p2 x="1960" y="1040"/>
     </wire>
     <wire>
+      <p1 x="1960" y="280"/>
+      <p2 x="1960" y="300"/>
+    </wire>
+    <wire>
       <p1 x="3240" y="900"/>
       <p2 x="3240" y="920"/>
     </wire>
@@ -5696,10 +5818,6 @@ end while
       <p2 x="960" y="600"/>
     </wire>
     <wire>
-      <p1 x="1860" y="180"/>
-      <p2 x="1860" y="200"/>
-    </wire>
-    <wire>
       <p1 x="1860" y="580"/>
       <p2 x="1860" y="800"/>
     </wire>
@@ -5745,6 +5863,10 @@ end while
     </wire>
     <wire>
       <p1 x="1740" y="100"/>
+      <p2 x="1740" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="360"/>
       <p2 x="1740" y="380"/>
     </wire>
     <wire>
@@ -5776,12 +5898,20 @@ end while
       <p2 x="1620" y="880"/>
     </wire>
     <wire>
+      <p1 x="1880" y="180"/>
+      <p2 x="1880" y="200"/>
+    </wire>
+    <wire>
       <p1 x="1880" y="1000"/>
       <p2 x="1880" y="1080"/>
     </wire>
     <wire>
       <p1 x="1880" y="600"/>
       <p2 x="1880" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="340"/>
+      <p2 x="1880" y="360"/>
     </wire>
     <wire>
       <p1 x="2780" y="500"/>
@@ -5832,10 +5962,6 @@ end while
       <p2 x="3300" y="1080"/>
     </wire>
     <wire>
-      <p1 x="2020" y="40"/>
-      <p2 x="2020" y="60"/>
-    </wire>
-    <wire>
       <p1 x="740" y="40"/>
       <p2 x="740" y="300"/>
     </wire>
@@ -5846,6 +5972,10 @@ end while
     <wire>
       <p1 x="100" y="440"/>
       <p2 x="100" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="2020" y="40"/>
+      <p2 x="2020" y="60"/>
     </wire>
     <wire>
       <p1 x="1640" y="280"/>
@@ -5860,20 +5990,12 @@ end while
       <p2 x="360" y="1040"/>
     </wire>
     <wire>
-      <p1 x="1900" y="340"/>
-      <p2 x="1900" y="360"/>
-    </wire>
-    <wire>
       <p1 x="1900" y="1020"/>
       <p2 x="1900" y="1080"/>
     </wire>
     <wire>
       <p1 x="1900" y="620"/>
       <p2 x="1900" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="1900" y="280"/>
-      <p2 x="1900" y="300"/>
     </wire>
     <wire>
       <p1 x="1900" y="500"/>
@@ -5918,10 +6040,6 @@ end while
     <wire>
       <p1 x="1140" y="1000"/>
       <p2 x="1140" y="1060"/>
-    </wire>
-    <wire>
-      <p1 x="1780" y="360"/>
-      <p2 x="1780" y="380"/>
     </wire>
     <wire>
       <p1 x="3320" y="1060"/>
